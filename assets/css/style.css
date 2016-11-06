@@ -1,0 +1,37 @@
+body {
+    background-color: deepskyblue;
+    margin: 0px 0px 0px 0px;
+}
+header {
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px dimgray;
+    box-shadow: 2px 2px 2px dimgrey;
+    padding: 10px 10px 10px 10px;
+}
+
+h1 {
+    
+}
+
+.login-section, .chat-section {
+    padding: 10px;
+    text-align: center;
+}
+
+#chat-display {
+    display: inline-block;
+    width: 40%;
+    height: 200px;
+    background-color: white;
+    text-align: left;
+    overflow: auto;
+    padding: 5px
+}
+
+.chat-text {
+    font-size: small;
+    line-height: 0;
+}
+
